@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.about{
+  font-family: "Gill Sans", sans-serif;
+  margin-left: 10px;
+  background-color: #ece7e7;
+  width: 600px;
+}
+
+.imagen-perfil{
+  position: relative;
+  left: 700px;
+}
+
+.skills-container{
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .list-skill{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    li{
+      width: 200px;
+      height: 100px;
+      border-color: gray;
+      border-width: 2px;
+      border-style: solid;
+      border-radius: 10px;
+      p{
+        margin-left: 70px;
+      }
+      .icon-skill{
+        width: 100px;
+        height: 40px;
+        position: relative;
+        right: -50px;
+      }
+    }
+  }
+  
+}
+
