@@ -1,3 +1,10 @@
+nav{
+  position: fixed;
+  top:0;
+  width:100%;
+  z-index: 1000;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -28,26 +35,39 @@ li a:hover {
 }
 
 .about{
-  font-family: "Gill Sans", sans-serif;
   margin-left: 10px;
-  background-color: #ece7e7;
-  width: 600px;
+  background-color: #cfcccb;
+  width: 700px;
+  height: 302px;
+  margin-top: 200px;
+  margin-left: 100px;
+  p{
+    margin-top: 70px;
+    text-align: justify;
+  }
 }
 
-.imagen-perfil{
+#image-gean{
   position: relative;
+  top: -170px;
   left: 700px;
+  max-width: 600px;
+  max-height: 300px;
 }
 
+/* Estilos de Habilidades */
 .skills-container{
+  margin-top: 200px;
   h1{
     font-family: Arial, Helvetica, sans-serif;
   }
+  height: 200px;
   .list-skill{
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
+    
     li{
       width: 200px;
       height: 100px;
@@ -69,3 +89,37 @@ li a:hover {
   
 }
 
+/*Estilos Projectos*/
+#projects{
+  height: 700px;
+  position: relative;
+  bottom: -100px;
+  margin-top: 150px;
+}
+
+/* Estilos de Contacto */
+.container-contact{
+  width: auto;
+  height: 150px;
+  background-color: #333;
+  h1{
+    color: white;
+    margin-left: 5px;
+
+  }
+  p{
+    margin-left: 100px;
+    color: white;
+  }
+  li{
+    margin-right: 100px;
+  }
+  .icon-contact{
+    margin-right: 10px;
+  }
+}
+
+.title-section{
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}

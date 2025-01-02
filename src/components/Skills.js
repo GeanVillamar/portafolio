@@ -5,7 +5,7 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 function Skills() {
   return (
     <div className="skills-container">
-      <h1>Habilidades</h1>
+      <h1 className="title-section">Skills</h1>
       <ul className="list-skill">
         <li>
           <p>javascript</p>
