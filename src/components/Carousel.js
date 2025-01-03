@@ -50,16 +50,23 @@ const Carousel = ({ images }) => {
   return (
     <div className="carousel-images">
       <AnimatePresence>
-        <motion.img
+        <motion.a
           key={currentIndex}
-          src={images[currentIndex]}
+          href={images[currentIndex].link}
           variants={slideVariants}
           initial={direction === "right" ? "hiddenRight" : "hiddenLeft"}
           animate="visible"
           exit="exit"
-        />
+        >
+          <figure>
+            <figcaption>{images[currentIndex].title}</figcaption>
+            <img
+              src={images[currentIndex].src}
+              alt={`Slide ${currentIndex + 1}`}
+            />
+          </figure>
+        </motion.a>
       </AnimatePresence>
-      ;
       <div className="slide_direction">
         <div className="left" onClick={handlePrevious}>
           <svg
@@ -83,12 +90,15 @@ const Carousel = ({ images }) => {
         </div>
       </div>
       <div className="carousel-indicator">
-        {images.map((_, index) => (
-          <div
-            key={index}
-            className={`dot ${currentIndex === index ? "active" : ""}`}
-            onClick={() => handleDotClick(index)}
-          ></div>
+        {images.map((image, index) => (
+          <div key={index}>
+            <a
+              href={image.link}
+              className={`dot ${currentIndex === index ? "active" : ""}`}
+              onClick={() => handleDotClick(index)}
+              aria-label={`Ver imagen ${index + 1}`}
+            />
+          </div>
         ))}
       </div>
     </div>
