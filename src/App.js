@@ -10,7 +10,7 @@ function App() {
   const images = [
     {
       src: "https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      link: "https://github.com/GeanVillamar/StoreApp",
+      link: "https://geanvillamar.github.io/StoreApp.github.io/",
       title: "Fake Store Aplication",
     },
     {
@@ -31,6 +31,7 @@ function App() {
         <About />
       </section>
       <section id="skills">
+        <h1 className="title-section">Skills</h1>
         <Skills />
       </section>
       <section id="projects">
