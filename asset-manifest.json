@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/http/geanvillamar.github.io/portafolio/static/css/main.c4d620ae.css",
+    "main.js": "/http/geanvillamar.github.io/portafolio/static/js/main.46992bcb.js",
+    "static/js/488.c5a7233e.chunk.js": "/http/geanvillamar.github.io/portafolio/static/js/488.c5a7233e.chunk.js",
+    "static/media/FakeStore.png": "/http/geanvillamar.github.io/portafolio/static/media/FakeStore.e1f68b17cddcb9dbb273.png",
+    "static/media/CRUD.png": "/http/geanvillamar.github.io/portafolio/static/media/CRUD.b5f0affc1b6be327bc96.png",
+    "static/media/Gean.jpg": "/http/geanvillamar.github.io/portafolio/static/media/Gean.977e00b772e2a1f72878.jpg",
+    "index.html": "/http/geanvillamar.github.io/portafolio/index.html",
+    "main.c4d620ae.css.map": "/http/geanvillamar.github.io/portafolio/static/css/main.c4d620ae.css.map",
+    "main.46992bcb.js.map": "/http/geanvillamar.github.io/portafolio/static/js/main.46992bcb.js.map",
+    "488.c5a7233e.chunk.js.map": "/http/geanvillamar.github.io/portafolio/static/js/488.c5a7233e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4d620ae.css",
+    "static/js/main.46992bcb.js"
+  ]
+}
