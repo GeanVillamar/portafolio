@@ -1,19 +1,23 @@
+import { Fade } from "react-awesome-reveal";
 import Gean from "./images/Gean.jpg";
 
 function About() {
   return (
     <div className="about-container">
-      <h1 className="title-section">About me</h1>
-      <p>
-        Hola soy Gean, y mi profesión es ingeniero de software. Tengo
-        conocimientos en programación tanto en aplicaciones web y base de
-        datos,tambien en base mi experiencia y estudios educativos poseo las
-        bases importantes en el ambito de las tecnologias y sistemas de
-        información.
-      </p>
-      <picture>
-        <img id="image-gean" src={Gean} alt="fotoperfil"></img>
-      </picture>
+      <Fade direction="left" triggerOnce>
+        <h1 className="title-section">About me</h1>
+        <p>
+          Hi, I'm Gean, and I'm a software engineer. I have programming
+          knowledge in both web applications and databases, and based on my
+          experience and educational studies, I have the important foundations
+          in the field of information technology and systems.
+        </p>
+      </Fade>
+      <Fade direction="down" triggerOnce fraction={0.2}>
+        <picture>
+          <img id="image-gean" src={Gean} alt="fotoperfil"></img>
+        </picture>
+      </Fade>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import "./App.css";
 import "./Carousel.css";
+import "./assets/FakeStore.png";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Carousel from "./components/Carousel";
@@ -9,19 +10,14 @@ import Contact from "./components/Contact";
 function App() {
   const images = [
     {
-      src: "https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      src: require("./assets/FakeStore.png"),
       link: "https://geanvillamar.github.io/StoreApp.github.io/",
       title: "Fake Store Aplication",
     },
     {
-      src: "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      link: "#",
-      title: "Blog Tecnico",
-    },
-    {
-      src: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      link: "#",
-      title: "App Analisis de datos de Transito",
+      src: require("./assets/CRUD.png"),
+      link: "https://geanvillamar.github.io/crudUser/",
+      title: "CRUD User",
     },
   ];
   return (
