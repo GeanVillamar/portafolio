@@ -127,3 +127,13 @@ li a {
     margin-top: 0;
   }
 }
+
+#csharp{
+  width: 50px;
+  margin-top: -10px;
+}
+
+#asp{
+  width: 60px;
+  margin-top: -20px;
+}

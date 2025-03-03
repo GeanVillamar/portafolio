@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Slide } from "react-awesome-reveal";
 import { faJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import csharp from "./images/csharp.png";
+import asp from "./images/asp.png";
 
 function Skills() {
   return (
@@ -31,6 +33,19 @@ function Skills() {
               style={{ color: "#74C0FC" }}
               className="icon-skill"
             />
+          </li>
+          <li>
+            <p translate="no">C#</p>
+            <img
+              className="icon-skill"
+              src={csharp}
+              alt="icon-csharp"
+              id="csharp"
+            />
+          </li>
+          <li>
+            <p>ASP.NET Core</p>
+            <img className="icon-skill" src={asp} alt="icon-asp" id="asp" />
           </li>
         </Slide>
       </ul>
