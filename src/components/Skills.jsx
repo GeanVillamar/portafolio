@@ -44,7 +44,7 @@ function Skills() {
             />
           </li>
           <li>
-            <p>ASP.NET Core</p>
+            <p translate="no">ASP.NET Core</p>
             <img className="icon-skill" src={asp} alt="icon-asp" id="asp" />
           </li>
         </Slide>
