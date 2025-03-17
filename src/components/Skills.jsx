@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import { faJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import csharp from "./images/csharp.png";
@@ -9,7 +9,7 @@ function Skills() {
   return (
     <div className="skills-container">
       <ul className="list-skill">
-        <Slide direction="right" cascade triggerOnce>
+        <Fade direction="right" cascade triggerOnce>
           <li>
             <p>javascript</p>
             <FontAwesomeIcon
@@ -47,7 +47,7 @@ function Skills() {
             <p translate="no">ASP.NET Core</p>
             <img className="icon-skill" src={asp} alt="icon-asp" id="asp" />
           </li>
-        </Slide>
+        </Fade>
       </ul>
     </div>
   );

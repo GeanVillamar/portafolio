@@ -10,14 +10,6 @@ function Contact() {
         <ul>
           <li>
             <FontAwesomeIcon
-              icon={faEnvelope}
-              style={{ color: "#ffffff" }}
-              className="icon-envelop"
-            />
-            <p translate="no">Email: villamargean270@gmail.com</p>
-          </li>
-          <li>
-            <FontAwesomeIcon
               icon={faLinkedinIn}
               style={{ color: "#ffffff" }}
               className="icon-envelop"
